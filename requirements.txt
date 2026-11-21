@@ -1,0 +1,12 @@
+# Сервис AudioLID, CPU. В Docker torch и torchaudio ставятся из CPU-индекса PyTorch (см. Dockerfile).
+torch==2.8.0
+torchaudio==2.8.0
+speechbrain==1.1.2
+huggingface-hub==0.36.2
+soundfile==0.13.1
+scipy==1.18.1
+numpy==2.5.5
+xgboost-cpu==3.4.1; sys_platform == "linux"
+xgboost==3.4.1; sys_platform != "linux"
+fastapi==0.165.0
+uvicorn==0.54.0

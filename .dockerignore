@@ -1,0 +1,16 @@
+**
+!Dockerfile
+!requirements.txt
+!requirements-ecapa.txt
+!service/
+service/**
+!service/*.py
+!models/
+models/**
+!models/xgb_model.json
+!models/xgb_summary.json
+!models/ecapa/
+models/ecapa/**
+!models/ecapa/*.ckpt
+!models/ecapa/hyperparams.yaml
+!models/ecapa/label_encoder.txt

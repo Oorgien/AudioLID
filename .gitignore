@@ -1,0 +1,24 @@
+# Local specifications and agent instructions: never commit or distribute.
+.specs/
+SPEC*
+TODOS.md
+CLAUDE.md
+AGENTS.md
+CODEX.md
+
+# Local environment, secrets, generated data and experiment output.
+.venv/
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+data/
+runs/
+dist/
+*.egg-info/
+.DS_Store
